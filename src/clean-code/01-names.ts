@@ -54,3 +54,37 @@
 
 
 })();
+
+/* La idea es colocar el nombre según el tipo  de dato */
+
+// bad names: no se entiende el proposito del nombre sin contexto  
+const fruits= 3; 
+const cars= 10;
+
+// mejores nombres son:
+const maxFruit = 5;
+const totalFruits = 8;
+const minFruits= 1;
+const totalOfCars = 4;
+
+/*  Nombres de funciones:  deben de representar acciones 
+que por lo general se contruye por el verbo y un sustantivo 
+ 
+Tiene que ser: descriptivo y conciso -> debe expresar lo que hace
+Debe de abstenerse de:  toda la implementación que hace la función
+
+evitar por ejemplo: 
+- createUserIfNotExists()
+- updateUserIfNotEmpty()
+-sendEmailIfFieldsValid()
+
+lo que tiene relación con el principio de responsabilidad unica
+el que se reduce a que cada acción debe hacer una tarea y hacerla
+bien
+mejor opción: 
+- createUSer()
+- updateUser()
+- sendEmail()
+
+
+*/
