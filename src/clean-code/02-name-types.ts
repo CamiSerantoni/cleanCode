@@ -58,3 +58,22 @@ no  debiese ser la norma, sino que la excepción
 
 
 })();
+
+
+/* Los nombres de las funciones deben describir exactamente lo que hace
+la misma
+
+Parámetros -> cuando definimos la función se les llama parámetros
+Argumentos->  cuando usamos esa función mandamos argumentos 
+
+
+- si bien no hay limites en la cantidad,
+ se recomienda que se limiten a 3 parametros posicionales
+ 3 o 1 
+-ordenar las propiedades de manera afabética,  no es obligación 
+pero sí una recomendación 
+
+
+ 
+
+*/
