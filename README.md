@@ -72,6 +72,37 @@ dependiendo de la navegación de estructuras o módulos, creando canales de comu
 - Middle man : es bueno evitar cadna de mensajes intermedios (muchas  veces resultado de la refactorización anterior)
 ![alt text](image-17.png)
 
+Principios S.O.L.I.D.
+
+Cada principio básicamente cuenta de 3 partes, una exposición, un ejercicio y cómo detectar violaciones al principio, algunos son bastante obvios y otros tienen un poco más de complejidad, pero no dejen que los nombres los asusten, son fáciles de comprender con la práctica.
+
+
+
+Los 5 principios S.O.L.I.D. de diseño de software son:
+
+Nos indican cómo organizar nuestras funciones y estructurasde datos en componentes y como dichos componentes deben estar interconectados. 
+
+Son recomendaciones decómo hacer mejor las cosas: 
+
+S – Single Responsibility Principle (SRP)
+
+O – Open/Closed Principle (OCP)
+
+L – Liskov Substitution Principle (LSP)
+
+I – Interface Segregation Principle (ISP)
+
+D – Dependency Inversion Principle (DIP)
+
+Y en esta sección hablaremos sobre cada uno de ellos.
+
+S- Responsabilidad única: 
+"tener una única repsonsabilidad" !== "hacer una única cosa"
+sino que en diseñar componentes que solo estén expuestos a una fuente de cambio
+
+
+
+
 
 
 ```
