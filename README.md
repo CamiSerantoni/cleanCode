@@ -13,6 +13,20 @@ Clonar o descargar el proyecto y luego:
 - parámetros /argumentos 
 ![alt text](image.png)
 
+- Acrónimo STUPID 
+![alt text](image-1.png)
+
+- Cohesión 
+![alt text](image-2.png)
+
+Estamos buscando concretamente que nuestras clases o componentes 
+todo lo relacionado entre si este relacionado y cuando se requiera conexión haya canales fáciles de mantener
+ ![alt text](image-3.png)
+
+*** Recordar: Un buen diseño de software tiene una alta cohesión y un bajo acoplamiento  
+![alt text](image-4.png)
+
+
 ```
 yarn install
 ó
