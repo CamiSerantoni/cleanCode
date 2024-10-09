@@ -26,6 +26,53 @@ todo lo relacionado entre si este relacionado y cuando se requiera conexión hay
 *** Recordar: Un buen diseño de software tiene una alta cohesión y un bajo acoplamiento  
 ![alt text](image-4.png)
 
+-Código no probable 
+![alt text](image-6.png)
+
+
+- Optimizaciones prematuras 
+![alt text](image-7.png)
+implementamos una solución compleja a la minima indispensable 
+
+![alt text](image-8.png)
+Es necesario encontrar un balance entre ambas complejidades. 
+
+- Nombres poco descriptivos: 
+-![alt text](image-5.png)
+
+- Duplicidad de código 
+![alt text](image-9.png)
+
+- Métodos grandes ... lo que se puede hacer es hacer más pequeño
+en pequeños submetodos que hagan una tarea especifica y la haga bien
+![alt text](image-10.png)
+
+- Si una clase  hace muchas cosas se puede subdividir en pequeñas subclases o métodos pero que lo haga correctamente 
+- evita dublicidad de código
+- favorece la reutilización 
+![alt text](image-11.png) 
+
+- Si hay mucha cantidad de variables de datos primitivos, se reemplace en un objeto y permita reutilizar los modulos
+![alt text](image-12.png)
+
+- Lista larga de parámetros: más de 3 - 4 argumentos en un método
+se puede pasar el objeto mismo como argumento, en vez de muchos pequeños 
+si los elementos no son relacionados podemos crear un objeto que los integre 
+![alt text](image-14.png)
+
+- Las buenas clases deben saber lo menos posible de otras clases 
+![alt text](image-15.png)
+
+- Cadena de mensajes: Función o módulo que  solicita a otro y a otro y otro
+dependiendo de la navegación de estructuras o módulos, creando canales de comunicación complejos 
+![alt text](image-16.png)
+
+ esto reduce la dependencia de la comunicación y la cantidad de código 
+
+- Middle man : es bueno evitar cadna de mensajes intermedios (muchas  veces resultado de la refactorización anterior)
+![alt text](image-17.png)
+
+
 
 ```
 yarn install
