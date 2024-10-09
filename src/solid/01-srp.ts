@@ -95,3 +95,28 @@
 
 
 })();
+
+/*  Las funciones trabajan más rapido que lass clases en Js
+
+Si bien los principios solid estan más orientados a la POO es decir en clases, 
+es validos para aplicar a los pryectos de JS o nuestros proyectos
+
+Si bien no es el unico camino seguir estas recomendaciones 
+considerando el principio de responsabilidad unica: 
+es decir una tarea y hacerla bien 
+*/
+
+/*   Detectar violaciones: 
+
+- nombres de clases y módulos demasiado genéricos 
+- cambios en el código suelen afectar a la clase o módulo 
+- la clase involucra multiples capas 
+- número elevado de importaciones 
+- cantidad elevada de métodos públicos
+- excesivo número de lídeas de código
+ 
+
+
+
+
+*/
