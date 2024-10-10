@@ -1,7 +1,23 @@
-export class LocalDataBaseService {
+
+import localPosts from '../data/local-database.json'
+import { Post } from './05-dependency-b'
+
+/*
+clase abstracta: objetivo sirva para extenderse o para que otras clases 
+sepan que tienen que implementar
+*/
+
+export abstract class PostProvider {
+
+    abstract getPosts(): Promise<Post []>
+}
 
 
-    async getFakePosts() {
+
+export class LocalDataBaseService implements PostProvider {
+
+
+    async getPosts() {
         return [
             {
                 'userId': 1,
@@ -18,3 +34,19 @@ export class LocalDataBaseService {
     }
 
 }
+
+export class JsonDataBaseService implements PostProvider {
+    async getPosts(){
+        return localPosts
+    } 
+}
+
+export class WebApiPostService implements PostProvider {
+
+    async getPosts(): Promise<Post[]> {
+        const response = await fetch('https://jsonplaceholder.typicode.com/posts');
+      return await response.json();
+    }
+}
+
+// https://jsonplaceholder.typicode.com/posts
