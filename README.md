@@ -91,6 +91,7 @@ O – Open/Closed Principle (OCP)
 L – Liskov Substitution Principle (LSP)
 
 I – Interface Segregation Principle (ISP)
+establece que los clientes no deberían verse forzados a depender de interfaces que no utilizan
 
 D – Dependency Inversion Principle (DIP)
 

@@ -11,7 +11,14 @@ import { Tesla, Audi, Toyota, Honda, Volvo, Ford } from './03-liskov-b';
 
     })
 
+/*
+ Si bien se podría dejar en una sola línea, pero no gano mucho en eficiencia 
+ y haria mas dificil de leer mi codigo 
 
+ - Hay que buscar priorizar la lectura del código por sobre la eficiencia
+ 
+
+*/
 
         
         // for (const car of cars) {
